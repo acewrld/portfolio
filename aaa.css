@@ -414,9 +414,9 @@ header.sticky{
 .contact{
 	background: #8067f0eb;
 	width: 64%;
-	margin: 100px auto;
+	margin: 80px auto 380px auto;
 	padding: 70px 150px;
-	display: flex;
+	/*display: flex;*/
 	align-items: center;
 	justify-content: center;
 	text-align: center;
@@ -446,6 +446,26 @@ header.sticky{
 	outline: none;
 	border-radius: 30px;
 }
+.contact .action form input[type="name"] {
+	max-width: 100%;
+	width: 470px;
+	padding: 12px 15px;
+	background: var(--bg-color);
+	color: var(--text-color);
+	border: none;
+	outline: none;
+	border-radius: 30px;
+}
+textarea {
+	max-width: 100%;
+	width: 470px;
+	padding: 12px 15px;
+	background: var(--bg-color);
+	color: var(--text-color);
+	border: none;
+	outline: none;
+	border-radius: 30px;
+}
 .contact .action form input[type="submit"] {
 	padding: 12px 40px;
 	background: var(--main-color);
@@ -458,7 +478,10 @@ header.sticky{
 
 .ends{
 	text-align: center;
-	padding: 40px;
+	padding: 10px;
+	background-color: black;
+	color: wheat;
+	margin-top: 0%;
 }
 .ends p{
 	font-size: var(--p-font);
