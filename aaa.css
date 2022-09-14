@@ -502,6 +502,24 @@ fieldset h1 {
 	color: #f75023;
 	text-align: center;
 }
+/*.heading1 {
+	margin-bottom: 5px;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}*/
+.service1 {
+	padding: 0;
+    margin top: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
 
 @media (max-width: 1425px){
 	header{
