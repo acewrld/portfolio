@@ -92,6 +92,7 @@ header{
 
 section{
 	padding: 100px 18%;
+	background-image: url();
 }
 .home{
 	min-height: 100vh;
@@ -519,6 +520,13 @@ fieldset h1 {
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
+}
+
+.anim {
+	opacity: 90;
+	transform: translate3d(40px);
+	animation: reverse 0.7s; 
+
 }
 
 @media (max-width: 1425px){
